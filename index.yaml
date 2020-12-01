@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  cplan-backend:
+  - apiVersion: v2
+    appVersion: develop
+    created: "2020-09-17T13:07:12.387724+03:00"
+    description: A Helm chart cplan backend
+    digest: 64070bbfcc0e8c15e6a46370d0555c75cc290840a25b44c3258077542367362e
+    name: cplan-backend
+    type: application
+    urls:
+    - https://charts.cdab.eu/cplan-backend-0.1.0.tgz
+    version: 0.1.0
+  cplan-frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0-beta-1
+    created: "2020-09-17T13:07:12.388262+03:00"
+    description: Helm chart for cplan frontend
+    digest: 503bc1c5e5b64d7708db92ecaf793f48f7eb98432dae4acdf0ee4f109835f15d
+    name: cplan-frontend
+    type: application
+    urls:
+    - https://charts.cdab.eu/cplan-frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-09-17T13:07:12.386972+03:00"
