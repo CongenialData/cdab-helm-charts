@@ -3,7 +3,17 @@ entries:
   cplan-backend:
   - apiVersion: v2
     appVersion: develop
-    created: "2020-09-17T13:07:12.387724+03:00"
+    created: "2020-12-01T11:44:23.003851+02:00"
+    description: A Helm chart cplan backend
+    digest: 7643cb2ad4e62a06b96043451c2b9cf0d0636c57f5f5d3b5b727c39ffc494b87
+    name: cplan-backend
+    type: application
+    urls:
+    - https://charts.cdab.eu/cplan-backend-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: develop
+    created: "2020-12-01T11:44:23.003356+02:00"
     description: A Helm chart cplan backend
     digest: 64070bbfcc0e8c15e6a46370d0555c75cc290840a25b44c3258077542367362e
     name: cplan-backend
@@ -13,8 +23,18 @@ entries:
     version: 0.1.0
   cplan-frontend:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-12-01T11:44:23.004678+02:00"
+    description: Helm chart for cplan frontend
+    digest: 0252e5de6672280fc197527b24febe2264bd0c10c1eadc53ec1f7288affc2a40
+    name: cplan-frontend
+    type: application
+    urls:
+    - https://charts.cdab.eu/cplan-frontend-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.0.0-beta-1
-    created: "2020-09-17T13:07:12.388262+03:00"
+    created: "2020-12-01T11:44:23.004267+02:00"
     description: Helm chart for cplan frontend
     digest: 503bc1c5e5b64d7708db92ecaf793f48f7eb98432dae4acdf0ee4f109835f15d
     name: cplan-frontend
@@ -22,4 +42,4 @@ entries:
     urls:
     - https://charts.cdab.eu/cplan-frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-17T13:07:12.386972+03:00"
+generated: "2020-12-01T11:44:23.002558+02:00"
