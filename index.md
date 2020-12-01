@@ -47,7 +47,7 @@ Update the index if you add a new package, or update existing packages
   {{ title }}
 </h3>
 
-[Home]({{ latest_chart.home }}) \| [Source]({{ latest_chart.sources[0] }})
+{% if latest_chart.home %}[Home]({{ latest_chart.home }}) \|{% endif %}{% if latest_chart.sources[0] %}[Source]({{ latest_chart.sources[0] }}){% endif %}
 
 {{ latest_chart.description }}
 
