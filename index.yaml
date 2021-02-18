@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cplan-backend:
   - apiVersion: v2
+    appVersion: main
+    created: "2021-02-18T15:38:22.714654+02:00"
+    description: A Helm chart cplan backend
+    digest: 0cfc5f96df139e651525c27ad8e31d775742613f533a22bf198a3670799f4ccb
+    name: cplan-backend
+    type: application
+    urls:
+    - https://charts.cdab.eu/cplan-backend-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: develop
-    created: "2020-12-01T11:53:24.911503+01:00"
+    created: "2021-02-18T15:38:22.714067+02:00"
     description: A Helm chart cplan backend
     digest: 7643cb2ad4e62a06b96043451c2b9cf0d0636c57f5f5d3b5b727c39ffc494b87
     name: cplan-backend
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: develop
-    created: "2020-12-01T11:53:24.909431+01:00"
+    created: "2021-02-18T15:38:22.713567+02:00"
     description: A Helm chart cplan backend
     digest: 64070bbfcc0e8c15e6a46370d0555c75cc290840a25b44c3258077542367362e
     name: cplan-backend
@@ -24,7 +34,7 @@ entries:
   cplan-frontend:
   - apiVersion: v2
     appVersion: develop
-    created: "2020-12-01T11:53:24.918985+01:00"
+    created: "2021-02-18T15:38:22.715895+02:00"
     description: Helm chart for cplan frontend
     digest: 1d83647c8fdffc772f18fd2476c02acc9a6b493461b4efe9553a4c76560ba0a0
     name: cplan-frontend
@@ -34,7 +44,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-01T11:53:24.915493+01:00"
+    created: "2021-02-18T15:38:22.715516+02:00"
     description: Helm chart for cplan frontend
     digest: 0252e5de6672280fc197527b24febe2264bd0c10c1eadc53ec1f7288affc2a40
     name: cplan-frontend
@@ -44,7 +54,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0-beta-1
-    created: "2020-12-01T11:53:24.913941+01:00"
+    created: "2021-02-18T15:38:22.715099+02:00"
     description: Helm chart for cplan frontend
     digest: 503bc1c5e5b64d7708db92ecaf793f48f7eb98432dae4acdf0ee4f109835f15d
     name: cplan-frontend
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://charts.cdab.eu/cplan-frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-01T11:53:24.907045+01:00"
+generated: "2021-02-18T15:38:22.712614+02:00"
